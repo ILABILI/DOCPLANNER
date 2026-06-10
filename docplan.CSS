@@ -1,4 +1,32 @@
-.h1{ 
-    padding: 0;
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
+li{
+    list-style: none;
+}
+a{
+    color: rgb(188, 196, 202);
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+.section.logo1{
     margin: 0;
-    }
+    max-width: 1015px;
+    padding: 0 20px;
+    position: relative;
+
+}
