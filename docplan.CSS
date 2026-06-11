@@ -23,10 +23,62 @@ a{
 a:hover{
     color: black;
 }
-.section.logo1{
-    margin: 0;
-    max-width: 1015px;
-    padding: 0 20px;
-    position: relative;
 
+.logo {
+    display: block;
+    height: auto;
+    margin: 0 auto;
 }
+img {
+    height: auto;
+    max-width: 100%;
+}
+img {
+    border: 0;
+     }
+ .title {
+    text-align: center;
+ }
+ h1{
+    color: rgb(3, 248, 248);
+    font-size: 2.125rem;
+ }
+ .box{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+    
+ }
+ .box p{
+    width: 50%;
+    line-height: 1.9;
+    color: #666;
+    padding: 10px;
+    margin: 12.8px;
+    font: 400;
+    line-height: 1.75;
+ }
+ .cards{
+    display: flex;
+    gap: 20px;
+ }
+ .card{
+    
+    flex: 1;
+    padding: 600px;
+    border-radius: 30px;
+    color: white;
+ }
+ .card1{
+    background: #01bba2;
+
+ }
+ .card2{
+    background: rgb(72, 72, 146);
+ }
+ .card3{
+    background:rgb(31, 31, 143);
+
+ }
+
+ 
